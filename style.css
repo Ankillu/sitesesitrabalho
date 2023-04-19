@@ -1,4 +1,4 @@
-.python {
+button {
     background-color: #7e57c2;
     color: #fff;
     border: 2px solid #fff;
@@ -8,6 +8,6 @@
 
 }
 
-.python:hover {
+button:hover {
     background-color: #6a1b9a;
 }
