@@ -1,0 +1,12 @@
+.python {
+    background-color: #7e57c2;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+
+}
+
+.python:hover {
+    background-color: #6a1b9a;
+}
