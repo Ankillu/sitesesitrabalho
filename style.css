@@ -1,4 +1,5 @@
-button {
+.botões1 {
+    align-self: center;
     background-color: #7e57c2;
     color: #fff;
     border: 2px solid #fff;
@@ -8,6 +9,10 @@ button {
 
 }
 
-button:hover {
+.botões1 {
     background-color: #6a1b9a;
+}
+.pagina1 {
+    align-items: center;
+    width: 100vh;
 }
