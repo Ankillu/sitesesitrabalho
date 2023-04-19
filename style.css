@@ -4,6 +4,7 @@
     border: 2px solid #fff;
     border-radius: 20px;
     padding: 10px 20px;
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #7e57c2, 0 0 80px #7e57c2, 0 0 100px #7e57c2;
 
 }
 
