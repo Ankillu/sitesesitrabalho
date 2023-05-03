@@ -1,20 +1,96 @@
 <!DOCTYPE html>
-    <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>programming for life</title>
-        <link href="style.css" rel="stylesheet">
-    </head>
-    <body>
-        <div class="pagina1">
-        <h1 class="h11">Bem Vindo a nosso site <br> sobre programação e tecnologia</h1>
-            <div class="divdosbotao">
-                <button class="botões1">Linguagens de Programação</button>
-                <button class="botões1">SESI</button>
-                <button class="botões1">Nossa História</button>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>programming for life</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="pagina1" class="pagina1">
+      <h1 class="h11">
+        Bem Vindo a nosso site <br />
+        sobre programação e tecnologia
+      </h1>
+      <div class="divdosbotao">
+        <button id="botao1" class="botões1">Linguagens de Programação</button>
+        <button id="botao2" class="botões1">SESI</button>
+        <button id="botao3" class="botões1">Nossa História</button>
+      </div>
+    </div>
+
+    <div id="pagina2" class="pagina2">
+        <h1>Linguagens de Programação</h1>
+          <div class="linguagens">
+            <div class="code-box" id="code-box1">
+              <img class="imagem" src="csharp.png">
+              <h2 class="texto">Csharp</h2>
+              <p class="descricao">C# é uma linguagem utilizada para o desenvolvimento de aplicativos,<br> jogos e software.</p>
+              <p class="descricao2">C# é uma linguagem de programação moderna, orientada a objetos e desenvolvida pela Microsoft em 2000. <br> C# é uma linguagem de alto nível, que permite a programação de forma eficiente e segura, além de ter um amplo conjunto de bibliotecas e recursos para facilitar o desenvolvimento</p>
             </div>
+            
+          <div class="code-box" id="code-box1">
+            <img class="imagem" src="csharp.png">
+            <h2 class="texto">teste</h2>
+            <p class="descricao">teste</p>
+            <p class="descricao2">Outro texto a ser exibido</p>
         </div>
-    </body>
+        <div class="code-box" id="code-box1">
+          <img class="imagem" src="csharp.png">
+          <h2 class="texto">teste</h2>
+          <p class="descricao">teste</p>
+          <p class="descricao2">Outro texto a ser exibido</p>
+        </div>
+        <div class="code-box" id="code-box1">
+          <img class="imagem" src="csharp.png">
+          <h2 class="texto">teste</h2>
+          <p class="descricao">teste</p>
+          <p class="descricao2">Outro texto a ser exibido</p>
+        </div>
+        </div>
+      </div>
+      
+
+    <div id="pagina3" class="pagina3">
+      
+      <h1>SESI</h1>
+      <p>Conteúdo da página de SESI</p>
+    </div>
+
+    <div id="pagina4" class="pagina4">
+      
+      <h1>Nossa História</h1>
+      <p>Conteúdo da página de Nossa História</p>
+    </div>
+
+    <script>
+      const botaocima = document.getElementById("botaocima");
+      const botao1 = document.getElementById("botao1");
+      const botao2 = document.getElementById("botao2");
+      const botao3 = document.getElementById("botao3");
+      const pagina1 = document.getElementById("pagina1");
+      const pagina2 = document.getElementById("pagina2");
+      const pagina3 = document.getElementById("pagina3");
+      const pagina4 = document.getElementById("pagina4");
+
+      // Adicione um manipulador de eventos de clique para cada botão
+      botao1.addEventListener("click", function () {
+        pagina2.scrollIntoView();
+      });
+
+      botao2.addEventListener("click", function () {
+        pagina3.scrollIntoView();
+      });
+
+      botao3.addEventListener("click", function () {
+        pagina4.scrollIntoView();
+      });
+      botaocima.addEventListener("click", function () {
+        pagina1.scrollIntoView();
+      });
+      
+
+    </script>
+  </body>
 </html>
